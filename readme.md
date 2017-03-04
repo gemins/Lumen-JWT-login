@@ -10,7 +10,7 @@ Para correr el servicio del repositorio puedes usar el siguiente comando:
 
 ```sh
 php -S localhost:8000 -t public
-``
+```
 
 ## Instalación y configuración
 
