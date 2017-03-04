@@ -2,6 +2,13 @@
 
 Este repositorio cuenta con la version de Lumen 5.4 + JWT para login de usuario, listo para clonar e iniciar todos tus proyectos.
 
+Para correr el repositorio puedes usar el siguiente comando:
+```php -S localhost:8000 -t public
+
+1. Recuerda Rellenar tu archivo .env con los datos de tu base de datos.
+2. Una vez iniciado el servidor del respositorio, ingresa a la ruta /key para copiar la clave de 32 chars y luego pegarlo en tu archivo .env (APP_KEY).
+3. Listo! Configura tu Lumen a gusto.
+
 Las instrucciones para generar este proyecto las podras encontrar aquí:
 https://manu.cloud/framework/lumen/inicio-de-sesion-con-jwt-en-lumen/
 
