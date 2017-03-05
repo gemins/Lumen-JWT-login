@@ -1,6 +1,6 @@
 # Lumen 5.4 + JWT (Login de usuario).
 
-[![N|Solid](https://manu.cloud/wp-content/uploads/2017/03/manucloud_createby.png)](https://manu.cloud)
+[![License](https://manu.cloud/wp-content/uploads/2017/03/manucloud_creador.png)](https://manu.cloud)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://opensource.org/licenses/MIT)
 
 Este repositorio cuenta con la version de Lumen 5.4 + JWT para login de usuario, listo para clonar e iniciar todos tus proyectos.
@@ -25,6 +25,8 @@ php artisan db:seed
 ```
 
 4. Listo! Configura tu Lumen a gusto.
+
+[![N|Solid](https://manu.cloud/wp-content/uploads/2017/03/manucloud_createby.png)](https://manu.cloud)
 
 Las instrucciones para generar este proyecto las podras encontrar aquí:
 https://manu.cloud/framework/lumen/inicio-de-sesion-con-jwt-en-lumen/
