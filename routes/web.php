@@ -10,22 +10,23 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+global $app;
 
 //Root of lumen
-$app->get('/', function () use ($app) {
+$router->get('/', function () use($app){
     return $app->version();
 });
 
 //Function to generate a random Key
-$app->get('/key', function() {
+$router->get('/key', function() {
     return str_random(32);
 });
 
 //Route to login users
-$app->post('/auth/login', 'AuthController@postLogin');
+$router->post('/auth/login', 'AuthController@postLogin');
 
 //GRoup with protection to login users.
-$app->group(['middleware' => 'auth:api'], function($app)
+$router->group(['middleware' => 'auth:api'], function($app)
 {
     $app->get('/test', function() {
         return response()->json([
