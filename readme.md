@@ -1,6 +1,6 @@
 # Lumen 5.6 + JWT 1.0-rc2 (Login de usuario) - UPDATED: 16/03/2018.
 
-[![License](https://manu.cloud/wp-content/uploads/2017/03/manucloud_creador.png)](https://manu.cloud)
+[![License](http://manu.cloud/wp-content/uploads/2017/03/manucloud_creador.png)](https://manu.cloud)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://opensource.org/licenses/MIT)
 
 Este repositorio cuenta con la version de Lumen 5.6 + JWT 1.0-rc2 para login de usuario, listo para clonar e iniciar todos tus proyectos.
@@ -11,7 +11,7 @@ Para correr el servicio del repositorio puedes usar el siguiente comando:
 
 ```sh
 php -S localhost:8000 -t public
-``
+```
 
 ## Instalación y configuración
 
